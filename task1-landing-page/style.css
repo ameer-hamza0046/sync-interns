@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: rgb(227, 215, 197);
+  background: linear-gradient(
+    90deg,
+    rgb(215, 210, 182) 0%,
+    rgb(250, 239, 184) 35%,
+    rgb(247, 219, 157) 100%
+  );
+}
+
+.logo {
+  font-family: "Shadows Into Light", cursive;
+  margin: 3px 10px;
+  font-size: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80vh;
+}
+
+.box {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 60%;
+}
+
+.box h1 {
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.box ul {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.explore-btn,
+.order-now-btn {
+  border: none;
+  height: 35px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.explore-btn {
+  margin-right: 20%;
+  transition: all 0.3s linear;
+}
+
+.explore-btn:hover {
+  background-color: rgb(89, 89, 89);
+  color: white;
+}
+
+.order-now-btn {
+  color: white;
+  background-color: rgb(26, 120, 171);
+  transition: all 0.3s linear;
+}
+
+.order-now-btn:hover {
+  background-color: rgb(24, 84, 116);
+}
+
+.landing-page-img {
+  width: 25%;
+}
+
+@media screen and (max-width: 715px) {
+  .container h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .container h1 {
+    font-size: 2rem;
+  }
+  .explore-btn {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+  }
+  .box {
+    margin-bottom: 10px;
+    width: 80%;
+  }
+  .landing-page-img {
+    width: 50%;
+  }
+  .explore-btn {
+    margin-right: 20px;
+  }
+}
