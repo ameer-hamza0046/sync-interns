@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="audio-player-container">
+      <div><img id="audio-img" src="./rain-and-thunder.jpg" alt="" /></div>
+      <div><h1>Rain and Thunder</h1></div>
+      <div><img class="icon" id="play-pause" alt="play-pause" /></div>
+      <div>
+        <span id="current-time">0:00</span>/<span id="duration">0:00</span>
+      </div>
+      <div><input type="range" id="time-range" value="0" max="100" /></div>
+      <div>
+        <img class="icon" id="mute-nomute" alt="mute-nomute" />
+        <input type="range" id="volume-range" value="100" max="100" />
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

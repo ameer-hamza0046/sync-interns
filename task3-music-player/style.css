@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 20px;
+  cursor: pointer;
+}
+
+#audio-player-container {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 50px;
+  overflow: hidden;
+  padding-bottom: 20px;
+  background-color: rgb(223, 253, 253);
+  box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+#audio-img {
+  width: 100%;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 250px;
+}
+
+#audio-player-container > div:nth-child(6) > input[type="range"] {
+  width: 100px;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 5px;
+  background: rgb(98, 127, 122);
+  border-radius: 5px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 15px;
+  width: 15px;
+  background-color: rgb(28, 28, 155);
+  border-radius: 50%;
+  margin-top: -5px;
+}
