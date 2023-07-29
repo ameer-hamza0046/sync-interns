@@ -11,16 +11,3 @@
 #main-heading {
   font-family: "Eczar", serif;
 }
-
-.magicpattern {
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: -1;
-  width: 400px;
-  height: 400px;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3ClinearGradient id=%22b%22 gradientTransform=%22rotate(-45 .5 .5)%22%3E%3Cstop offset=%220%25%22 stop-color=%22%230093E9%22%2F%3E%3Cstop offset=%22100%25%22 stop-color=%22%2380D0C7%22%2F%3E%3C%2FlinearGradient%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M902 635q-81 135-203 219.5T447.5 877q-129.5-62-248-143T82 500.5q1-152.5 114-242t249-154q136-64.5 262 26t201 230Q983 500 902 635Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22url(%23b)%22 d=%22M902 635q-81 135-203 219.5T447.5 877q-129.5-62-248-143T82 500.5q1-152.5 114-242t249-154q136-64.5 262 26t201 230Q983 500 902 635Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
-}
